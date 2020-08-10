@@ -3,9 +3,9 @@
 
 int main()
 {
-	int a, b, c, sum = 0, N;
+	int a, b, sum = 0, N;
 	double	av, sdTemp = 0;
-	scanf("%d %d", &a, &b);
+	scanf_s("%d %d", &a, &b);
 	if (a > b)
 	{
 		for(int i=a;i>=b;i--)
